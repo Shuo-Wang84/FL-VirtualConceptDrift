@@ -1,7 +1,7 @@
 # Introduction
-There are 11 detection methods and 6 adaptation methods:
+There are 11 detection methods and 5 adaptation methods:
 Detection methods are:D3, IKSbdd, ITA, Kruskal, LD3, OCDD, idddsda, ks_2samp, kswin, mannwhitneyu, ttest.
-adaptation methods are:LWF, client_clustering, learnandepoch, reset, client_driftchose, client_weight.
+adaptation methods are:Model Reset, Increase Local Training Rounds, Dual Model Adaptation, Weighted Client Aggregation.
 
 Including [libcdd](https://github.com/Shuo-Wang84/FL-VirtualConceptDrift/tree/main/libcdd) comes from https://github.com/HsiangYangChu/LIBCDD/tree/master.
 
