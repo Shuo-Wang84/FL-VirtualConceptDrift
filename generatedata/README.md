@@ -1,4 +1,4 @@
-#Synthetic Scenario Design:
+# Synthetic Scenario Design:
 To generate data streams for FL, we fix the number of clients to 10. 
 For each client, we generate 100 data points per batch. 
 For the Gaussian (2D), Gaussian (8D) and Hyperplane datasets, each client receives 200 batches (i.e. time steps), leading to 20,000 data samples in total. 
