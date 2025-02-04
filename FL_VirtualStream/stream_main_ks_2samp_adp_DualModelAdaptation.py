@@ -501,10 +501,10 @@ if __name__ == "__main__":
     num_clients = 10
     batch_size = 100
     gpu = 0
-    sensitivity = 0.1
+    # sensitivity = 0.1
     Nmax = 10
     padding = 50
-    # 设置显著性水平
+    # 设置检测显著性水平
     alpha = 0.01
 
     device = torch.device('cuda:{}'.format(gpu) if torch.cuda.is_available() and gpu != -1 else 'cpu')
